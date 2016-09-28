@@ -1,0 +1,4 @@
+sshd: /usr/sbin/sshd -D
+bash: sleep 10; echo done
+ping: ping web.de
+
