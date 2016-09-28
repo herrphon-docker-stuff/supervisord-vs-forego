@@ -1,4 +1,3 @@
-sshd: /usr/sbin/sshd -D
-bash: sleep 10; echo done
-ping: ping web.de
+sleep_n_kill:  sleep 10; killall ping; echo done
+ping:          ping web.de
 
