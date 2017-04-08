@@ -3,7 +3,8 @@ FROM ubuntu:latest
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update  \
  && apt-get -y upgrade  \
- && apt-get install psmisc  \
+ && apt-get install -y psmisc  \
+ && apt-get install -y iputils-ping  \
  && rm -rf /var/lib/apt/lists/*
 
 
